@@ -11,6 +11,10 @@ Figures 2 to 5.
 3. makerobustboxplots.R. This R file takes csv files from SimResults.zip and uses them to generate Figures 2 to 5. To do this, unzip SimResults.zip and change line 1 of the R code to the directory where the csv files are
 stored on your device.
 
+4. BAGweightsonly.zip. This zip file contains the average BAG weights obtained for each of the 30 simulated datasets in Section 4. It was used to create Figure 6.
+
+5. make_boxplots_weightsonly.R. This R file uses the csv files in BAGweightsonly.zip to create Figure 6.
+
 
 
    
