@@ -15,7 +15,6 @@ stored on your device.
 
 5. make_boxplots_weightsonly.R. This R file uses the csv files in BAGweightsonly.zip to create Figure 6.
 
-
-AppendixBSimResults.zip. This zip file contains csv files that store the output of BAGDesignRobustSim.R for all of the simulations in Appendix B. These results may be passed to makerobustboxplots.R to generate all figures in Appendix B.
+6. AppendixBSimResults.zip. This zip file contains csv files that store the output of BAGDesignRobustSim.R for all of the simulations in Appendix B. These results may be passed to makerobustboxplots.R to generate all figures in Appendix B.
 
 Our code requires the use of the R package matlib. If you encounter issues installing matlib on a Mac, please try and install XQuartz first, as per the following instructions from the package authors: “The functions that draw 3D graphs use the rgl package. On macOS, the rgl package requires that XQuartz be installed. After installing XQuartz, it’s necessary either to log out of and back into your macOS account or to reboot your Mac.”
